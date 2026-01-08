@@ -3,16 +3,21 @@ html,body {
     margin: 0;
 }
 
-body {
-    background:
+#background{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: 
         linear-gradient(to top,
             rgb(255, 255, 255),
             rgba(255, 255, 255, 0)),
-        url('https://static.inven.co.kr/image_2011/site_image/lol/dataninfo/icon/skinfull/Urgot_Splash_7.jpg?v=250403a');
+        url('Urgot.jpg');
     background-repeat: no-repeat, no-repeat;
     background-size: auto, cover;
-    /* background-position: center, center; */
-    background-size: 100vw 100vh;
+    background-attachment: fixed;
+    z-index: -1;
 }
 #box{
     /* background-color: wheat; */
